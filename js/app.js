@@ -71,7 +71,7 @@
             
         // select cart
         const cart = document.getElementById("cart");
-        const total = document.querySelector(."cart-total-container");
+        const total = document.querySelector(".cart-total-container");
         cart.insertBefore(cartItem, total);
         alert("Item added to the cart");
        
